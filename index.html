@@ -16,7 +16,14 @@
         <div class="container cn">
 
             <nav>
-                <div class="nav nav-tabs" id="nav-tab">
+                <div class="nav nav-tabs" id="nav-tab"
+                style="
+                justify-content: center;
+                font-size: large;
+                column-gap: 50px;
+                padding-top: 10px;
+                "
+                >
                     <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#me" type="button">Me</button>
                     <button class="nav-link" data-bs-toggle="tab" data-bs-target="#projects" type="button">Projects</button>
                     <button class="nav-link" data-bs-toggle="tab" data-bs-target="#cer" type="button">Certificates</button>
@@ -72,7 +79,18 @@
                 <div class="tab-pane fade" id="projects">
                     <div class="container-fluid">
 
-                        <div class="row mt-4 b1">
+                        <div class="row mt-4 b">
+                            <div class="col">
+                                <img src="./images/food_delivery.png" class="im-size2 rounded float-start">
+                            </div>
+                            <div class="col">
+                                <p class=" mt-5 text-white fw-bold fs-4">Food Delivery-Laravel-</p>
+                                <p class="fs-6 text-white">food delivery website with three sections client, restaurant, delivery person. (using laravel).</p>                                
+                                <span><a href="https://github.com/OsamahAj1/FoodDelivery-Laravel-"><button class="fa fa-github fs-1 text-success btn"></button></a></span>
+                            </div>
+                        </div>
+
+                        <div class="row b1">
                             <div class="col ms-5">
                                 <p class="mt-5 text-white fw-bold fs-4">Food Delivery</p>
                                 <p class="fs-6 text-white">food delivery website with three sections client, restaurant, delivery person.</p>
