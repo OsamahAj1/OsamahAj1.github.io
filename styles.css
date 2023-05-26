@@ -61,3 +61,11 @@ body {
 .in {
     background-color: #4489cd;
 }
+
+.eventful-link {
+    color: rgb(253 205 29);
+}
+
+.eventful-link:hover {
+    color: rgb(239, 190, 9);
+}
